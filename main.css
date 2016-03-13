@@ -126,6 +126,7 @@ main{
 }
 .hover-mask a span{
     margin: auto;
+    display: inline-block;
 }
 .img:hover .hover-mask{
     background-color: rgba(171, 171, 171, .9);
