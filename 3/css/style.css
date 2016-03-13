@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+/* ********************
+   TOP CONTACTS BLOCK
+   ******************** */
+.top-contacts .container{
+    justify-content: flex-end;
+    align-items: center;
+}
+.top-contacts{
+    background-color: #F1F1F1;
+    color: #7f7f80;
+    font-size: .8em;
+}
+.top-contacts .container > a{
+    padding: 8px 0;
+    margin: 0 10px;
+}
+.top-contacts a:hover{
+    color: #29BCC9;
+}
+.top-contacts a{
+    color: inherit;
+}
+.top-contacts .email{
+    color: #29BCC9;
+}
+.top-contacts .email:hover, .top-contacts .tel:hover{
+    text-decoration: underline;
+}
+.top-icons{
+    display: flex;
+    margin-left: 10px;
+}
+.top-icons a{
+    font-size: 1.2em;
+    background-color: #E4E4E4;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1px;
+}
+/* ********************
+   END TOP CONTACTS BLOCK
+   ******************** */
+
+/* ********************
+        HEADER
+   ******************** */
+header{
+    background-color: #fff;
+    padding: 45px 0;
+}
+header .container{
+    justify-content: space-between;
+}
+#logo{
+    font-size: 2.5em;
+    color: #454545;
+    font-family: 'PT Sans', sans-serif;
+}
+#m-letter{
+    background-color: #29BCC9;
+    padding: 4px 10px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+.main-nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.main-nav li{
+    padding: 0 15px;
+}
+.main-nav li a{
+    color: #808080;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.main-nav li a:hover{
+    color: #29BCC9;
+}
+/* ********************
+        END HEADER
+   ******************** */
+
+/* ********************
+        BREADCRUMBS
+   ******************** */
+#breadcrumbs{
+    background-color: #2095a0;
+}
+#breadcrumbs ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+}
+#breadcrumbs li a{
+    color: #fff;
+    font-size: .8em;
+    padding: 0 10px;
+}
+#breadcrumbs li:first-child a{
+    padding: 0 10px 0 0;
+}
+#breadcrumbs li.active a{
+    color: #5CE8F5;
+}
+#breadcrumbs li:not(:first-child)::before{
+    content: ">";
+    font-size: .7em;
+    color: #333;
+}
+/* ********************
+        END BREADCRUMBS
+   ******************** */
