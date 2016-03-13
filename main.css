@@ -25,7 +25,7 @@ main{
     background-color: #ebebeb;
 }
 .item:nth-child(2n) .desc::before{
-     background: none repeat scroll 0 0 #E0E0E0;
+     background: none repeat scroll 0 0 #E6E6E6;
      content: "";
      height: 100%;
      width: 100%;
