@@ -6,6 +6,11 @@ body{
 }
 a{
     text-decoration: none;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -ms-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
 }
 .container{
     width: 60%;
@@ -71,7 +76,7 @@ header .container{
 #logo{
     font-size: 2.5em;
     color: #454545;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 #m-letter{
     background-color: #29BCC9;
@@ -90,6 +95,7 @@ header .container{
     color: #808080;
     font-size: 1em;
     text-transform: uppercase;
+
 }
 .main-nav li a:hover{
     color: #29BCC9;
@@ -121,6 +127,9 @@ header .container{
 #breadcrumbs li.active a{
     color: #5CE8F5;
 }
+#breadcrumbs li a:hover{
+    color: #46d9eb;
+}
 #breadcrumbs li:not(:first-child)::before{
     content: ">";
     font-size: .7em;
@@ -129,3 +138,26 @@ header .container{
 /* ********************
         END BREADCRUMBS
    ******************** */
+
+/* ********************
+        CAT TITLE
+   ******************** */
+.cat-title{
+    background-color: #29bdca;
+}
+.cat-title .container{
+    flex-direction: column;
+}
+.cat-title h1, .cat-title h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    color: #fff;
+    margin: 1.5em 0 0 0;
+}
+.cat-title h3{
+    font-size: 1em;
+    color: #9dedf4;
+    margin: 0 0 3em 0;
+    padding: 0;
+}
