@@ -362,33 +362,33 @@ footer{
 footer ul{
     list-style: none;
 }
-.top-foot{
+.foot{
     display: flex;
     justify-content: space-between;
     margin: 50px 0;
 }
-.top-foot > div{
+.foot > div{
     width: 30%;
 }
-.top-left{
+.left{
     margin-left: 0;
 }
-.top-left p{
+.left p{
     font-size: .8em;
     margin-bottom: 25px;
 }
-.top-left form{
+.left form{
     display: flex;
     justify-content: space-between;
 }
-.top-left input[type='text']{
+.left input[type='text']{
     border: none;
     border-radius: 3px;
     line-height: 25px;
     width: 80%;
     padding: 5px;
 }
-.top-left button{
+.left button{
     background-color: #bfbfbf;
     color: #fff;
     border: none;
@@ -402,24 +402,24 @@ footer ul{
     -o-transition: all .1s linear;
     transition: all .1s linear;
 }
-.top-left button:hover{
+.left button:hover{
     background-color: #9E9E9E;
     color: #E6E6E6;
 }
-.top-right{
+.right{
     margin-right: 0;
 }
-.top-foot h4{
+.foot h4{
     color: #fff;
     font-size: 1.3em;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     margin-bottom: 25px;
 }
-.top-foot{
+.foot{
     color: #999999;
 }
-.top-center li{
+.center li{
     background-color: #333333;
     padding: 15px;
     margin-bottom: 20px;
@@ -427,17 +427,19 @@ footer ul{
     position: relative;
     overflow: hidden;
 }
-.top-center a{
+.center a{
     color: #bfbfbf;
+    z-index: 2;
+    position: relative;
 }
-.top-center a:hover{
+.center a:hover{
     color: #fff;
 }
-.top-center li .ago{
+.center li .ago{
     display: flex;
     justify-content: flex-end;
 }
-.top-center li::after{
+.center li::after{
     content: "\f099";
     font-family: FontAwesome;
     font-style: normal;
@@ -447,6 +449,7 @@ footer ul{
     color: #2d2d2d;
     bottom: -30px;
     left: 5px;
+    z-index: 1;
 }
 .fol-twit{
     font-size: .8em;
@@ -455,17 +458,17 @@ footer ul{
     font-size: 1.2em;
     margin-right: 5px;
 }
-.top-right li{
+.right li{
     margin-bottom: 10px;
 }
-.top-right a{
+.right a{
     color: #bfbfbf;
     font-size: .8em;
 }
-.top-right a:hover{
+.right a:hover{
     color: #fff;
 }
-.top-right p{
+.right p{
     color: #999999;
     font-size: .8em;
 }
